@@ -1,0 +1,4 @@
+showcase
+========
+
+Demonstrate Rails Techniques
