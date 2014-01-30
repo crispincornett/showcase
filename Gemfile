@@ -55,11 +55,12 @@ group :development, :test do
   gem 'metric_fu', '~> 4.7.1'
 end
 
-# gem "devise", "~> 3.2.2"
-# gem 'bootstrap-sass', '~> 3.0.3.0'
-# gem 'font-awesome-sass', '~> 4.0.2'
-
 group :test do
   gem 'simplecov', :require => false
   gem 'database_cleaner'
 end
+
+gem "ffaker", "~> 1.23.0"
+# gem "devise", "~> 3.2.2"
+# gem 'bootstrap-sass', '~> 3.0.3.0'
+# gem 'font-awesome-sass', '~> 4.0.2'

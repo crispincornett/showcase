@@ -1,0 +1,29 @@
+<h1>Listing test_resources</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attr1</th>
+      <th>Attr2</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_resources.each do |test_resource| %>
+      <tr>
+        <td><%= test_resource.attr1 %></td>
+        <td><%= test_resource.attr2 %></td>
+        <td><%= test_resource.description %></td>
+        <td><%= link_to 'Show', test_resource %></td>
+        <td><%= link_to 'Edit', edit_test_resource_path(test_resource) %></td>
+        <td><%= link_to 'Destroy', test_resource, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test resource', new_test_resource_path %>

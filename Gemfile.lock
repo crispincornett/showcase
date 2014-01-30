@@ -86,6 +86,7 @@ GEM
       factory_girl (~> 4.3.0)
       railties (>= 3.0.0)
     fattr (2.2.1)
+    ffaker (1.23.0)
     flay (2.4.0)
       ruby_parser (~> 3.0)
       sexp_processor (~> 4.0)
@@ -298,6 +299,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   database_cleaner
   factory_girl_rails (~> 4.3.0)
+  ffaker (~> 1.23.0)
   jazz_hands
   jquery-rails
   metric_fu (~> 4.7.1)

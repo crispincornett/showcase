@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Attr1:</strong>
+  <%= @test_resource.attr1 %>
+</p>
+
+<p>
+  <strong>Attr2:</strong>
+  <%= @test_resource.attr2 %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @test_resource.description %>
+</p>
+
+<%= link_to 'Edit', edit_test_resource_path(@test_resource) %> |
+<%= link_to 'Back', test_resources_path %>
